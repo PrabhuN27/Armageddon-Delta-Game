@@ -1,8 +1,8 @@
 if (!localStorage.getItem('highScore')) {} else {
     var highScore = localStorage.getItem('highScore');
     document.getElementById("highScore").innerHTML = "High Score: " + highScore;
-    document.getElementById("startGame").onclick = function() { createGame() };
 }
+ document.getElementById("startGame").onclick = function() { createGame() };
 
 
 function createGame() {
